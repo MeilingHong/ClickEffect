@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/click_effect_up2" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+    <item android:drawable="@drawable/click_effect_down2" android:state_focused="true"/>
+    <item android:drawable="@drawable/click_effect_down2" android:state_selected="true"/>
+    <item android:drawable="@drawable/click_effect_down2" android:state_pressed="true"/>
+</selector>

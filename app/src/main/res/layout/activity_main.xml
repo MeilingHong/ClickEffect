@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA">
+
+    <LinearLayout
+        android:id="@+id/allContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- *****  第三层  ******************************************************************* -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/click_effect"
+            android:orientation="horizontal"
+            android:padding="5dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/selector_map_watchlist_not_online_click_effect"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/click_effect"
+            android:padding="5dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/buttonButtonAttribute"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:button="@drawable/effection"
+            android:padding="5dp"
+            android:text="Button  android:button"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/buttonBackgroundAttribute"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/effection"
+            android:padding="5dp"
+            android:text="Button  android:background"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageBackgroundAttribute"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:text="Button  android:background"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageBackgroundAttribute2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/effection"
+            android:padding="5dp"
+            android:text="Button  android:background"
+            android:textSize="10sp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBackgroundAttribute"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/effection"
+            android:padding="5dp"
+            android:text="Button  android:background"
+            android:textSize="10sp" />
+
+        <!--
+        RadioGroup 继承自LinearLayout
+        RadioButton 继承自Button
+         -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+            <!--  android:drawableLeft="@drawable/selector_gender"  -->
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/click_effect"
+                android:button="@null"
+                android:text="RadioButton继承Button;RadioGroup继承LinearLayout"
+                android:textSize="10sp" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/click_effect"
+            android:button="@null"
+            android:text="CheckBox  继承自Button"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/buttonMaterialDesignStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            style="@style/ButtonTheme"
+            android:text="Button  MaterialDesign Style"
+            android:textSize="10sp" />
+
+        <!-- 样式需要在theme属性中设置，否则发现没有效果 -->
+        <Button
+            android:id="@+id/buttonMaterialDesignTheme"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:theme="@style/ButtonTheme"
+            android:text="Button  MaterialDesign Theme"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:background="?attr/selectableItemBackground"
+            android:theme="@style/ButtonTheme"
+            android:text="边界波纹"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:theme="@style/ButtonTheme"
+            android:text="无边界波纹"
+            android:textSize="10sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:background="@drawable/effection"
+            android:stateListAnimator="@drawable/z_animation"
+            android:theme="@style/ButtonTheme"
+            android:text="Z轴动画"
+            android:textSize="10sp" />
+
+        <!--
+
+        ?attr/selectableItemBackground
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            &lt;!&ndash; *****  第四层  ******************************************************************* &ndash;&gt;
+            <LinearLayout
+                android:id="@+id/click01"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/click_effect"
+                android:orientation="horizontal"
+                android:padding="5dp" />
+
+            <View
+                android:id="@+id/click11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/click_effect"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/click21"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/click_effect"
+                android:padding="5dp"
+                android:text="click21" />
+
+            <Button
+                android:id="@+id/click31"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/click_effect"
+                android:padding="5dp"
+                android:text="click31" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                &lt;!&ndash; *****  第五层  ******************************************************************* &ndash;&gt;
+                <LinearLayout
+                    android:id="@+id/click02"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/click_effect"
+                    android:orientation="horizontal"
+                    android:padding="5dp" />
+
+                <View
+                    android:id="@+id/click12"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/click_effect"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/click22"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/click_effect"
+                    android:padding="5dp"
+                    android:text="click22" />
+
+                <Button
+                    android:id="@+id/click32"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/click_effect"
+                    android:padding="5dp"
+                    android:text="click32" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    &lt;!&ndash; *****  第六层  ******************************************************************* &ndash;&gt;
+                    <LinearLayout
+                        android:id="@+id/click03"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/click_effect"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:visibility="gone"
+                        />
+
+                    <View
+                        android:id="@+id/click13"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/click_effect2"
+                        android:padding="5dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/click23"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/click_effect2"
+                        android:padding="5dp"
+                        android:text="click23"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/click33"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/click_effect2"
+                        android:padding="5dp"
+                        android:text="click33"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

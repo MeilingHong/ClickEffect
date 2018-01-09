@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="transparent">#00000000</color>
+
+    <color name="font_color_000000_alpha_00">#00000000</color>
+    <color name="font_color_000000_alpha_20">#33000000</color>
+    <color name="font_color_000000_alpha_50">#80000000</color>
+
+    <color name="font_color_ffffff_alpha_00">#00ffffff</color>
+    <color name="font_color_ffffff_alpha_20">#33ffffff</color>
+    <color name="font_color_ffffff_alpha_50">#80ffffff</color>
+
+    <color name="color_ff9a49">#ff9a49</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="selector_urgency">#17A8A8</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="color_e32b2b">#e32b2b</color>
+    <color name="colorSkyBlue">#8EE5EE</color>
+
+
+    <color name="colorAlphaBlack_00">#00000000</color>
+    <color name="colorAlphaBlack_01">#01000000</color>
+    <color name="colorAlphaBlack_02">#02000000</color>
+    <color name="colorAlphaBlack_03">#03000000</color>
+    <color name="colorAlphaBlack_04">#04000000</color>
+    <color name="colorAlphaBlack_05">#05000000</color>
+    <color name="colorAlphaBlack_09">#09000000</color>
+    <color name="colorAlphaBlack_11">#11000000</color>
+    <color name="colorAlphaBlack_22">#22000000</color>
+    <color name="colorAlphaBlack_33">#33000000</color>
+    <color name="colorAlphaBlack_44">#44000000</color>
+    <color name="colorAlphaBlack_55">#55000000</color>
+    <color name="colorAlphaBlack_66">#66000000</color>
+    <color name="colorAlphaBlack_77">#77000000</color>
+    <color name="colorAlphaBlack_88">#88000000</color>
+    <color name="colorAlphaBlack_99">#99000000</color>
+    <color name="colorAlphaBlack_AA">#AA000000</color>
+    <color name="colorAlphaBlack_BB">#BB000000</color>
+    <color name="colorAlphaBlack_CC">#CC000000</color>
+    <color name="colorAlphaBlack_DD">#DD000000</color>
+    <color name="colorAlphaBlack_EE">#EE000000</color>
+    <color name="colorPureBlack">#000000</color>
+    <color name="colorTransport">#00000000</color>
+
+</resources>
